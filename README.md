@@ -61,12 +61,12 @@ Every utility below is pre-compiled, portable, and ready to run on Windows 10 / 
 
 ## More Websites, Apps & Projects
 
-Click anywhere on the preview below to launch **`tr.ee/sanchar`** and browse all live web apps, browser games, and developer utilities:
+Click anywhere on the preview card below to launch **`tr.ee/sanchar`** and browse all live web apps, browser games, and developer utilities:
 
 <div align="center">
 
 <a href="https://tr.ee/sanchar">
-  <img src="linktree-preview.png" width="780" alt="Sanchar Koirala — Official Link Hub (tr.ee/sanchar)" />
+  <img src="linktree-preview.png" width="330" alt="Sanchar Koirala — Official Link Hub (tr.ee/sanchar)" />
 </a>
 
 <br /><br />
