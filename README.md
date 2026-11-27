@@ -9,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0ea5e9?style=flat-square&logo=windows&logoColor=white)](https://github.com/sanchar303/bat-to-exe)
 [![Dependencies](https://img.shields.io/badge/Dependencies-None%20(Native%20.NET)-22c55e?style=flat-square)](https://github.com/sanchar303/bat-to-exe)
 [![GitHub Pages](https://img.shields.io/badge/Web%20Portal-Live-38bdf8?style=flat-square&logo=githubpages&logoColor=white)](https://github.com/sanchar303/bat-to-exe/deployments)
-[![More Apps](https://img.shields.io/badge/More%20Websites%20%26%20Apps-tr.ee%2Fsanchar-43e660?style=flat-square&logo=linktree&logoColor=081018)](https://tr.ee/sanchar)
+[![More Apps](https://img.shields.io/badge/All%20Websites%20%26%20Apps-tr.ee%2Fsanchar-43e660?style=flat-square&logo=linktree&logoColor=081018)](https://tr.ee/sanchar)
 
 [Download Converter](./bat_to_exe_converter.exe) · [Quick Start](#quick-start) · [Standalone Tools](#more-standalone-tools) · [More Websites & Apps](#more-websites-apps--projects) · [Repo Layout](#repository-structure)
 
@@ -19,7 +19,7 @@
 
 ## Overview
 
-`bat_to_exe_converter.exe` compiles any Windows batch script (`.bat`) into a portable, standalone executable (`.exe`) without third-party wrappers, SDKs, or external runtimes. It leverages the native `.NET` C# compiler and imaging libraries already built into Windows 10 and Windows 11.
+`bat_to_exe_converter.exe` compiles any Windows batch script (`.bat`) into a portable, standalone executable (`.exe`) without third-party wrappers, SDKs, or external runtimes. It uses the native `.NET` C# compiler and imaging libraries already built into Windows 10 and Windows 11.
 
 This repository also powers the live **GitHub Pages** download portal (`index.html`) and bundles four standalone, single-binary Windows utilities ready to download and run immediately.
 
@@ -54,26 +54,49 @@ Every utility below is pre-compiled, portable, and ready to run on Windows 10 / 
 | :--- | :--- | :--- |
 | **Live Size Monitor** | [`live_size.exe`](./live_size.exe) | Drag any file or folder onto it to track real-time size, write speed, net delta, and disk I/O activity inside a live console HUD. |
 | **Hyper-Extract Studio** | [`archive.exe`](./archive.exe) | Multi-threaded archiving and extraction engine built to pack large directories and extract heavy archives fast. |
-| **NetPulse Command** | [`network.exe`](./network.exe) | Real-time network command center to monitor live throughput, reveal saved Wi-Fi keys, generate PNG Wi-Fi QR codes, host custom hotspots, and scan LAN devices. |
+| **NetPulse Command** | [`network.exe`](./network.exe) | Real-time network command center to track live throughput, reveal saved Wi-Fi keys, generate PNG Wi-Fi QR codes, host custom hotspots, and scan LAN devices. |
 | **Piano** | [`piano.exe`](./piano.exe) | Zero-latency 88-key polyphonic studio piano with 6 built-in instrument presets, live chord detection, sustain pedal, and auto-shifting keyboard shortcuts across every octave. |
 
 ---
 
 ## More Websites, Apps & Projects
 
-Explore the full directory of web apps, browser games, developer utilities, and live experiments built by **Sanchar Koirala**:
-
 <div align="center">
 
-<a href="https://tr.ee/sanchar" target="_blank" rel="noopener noreferrer">
-  <img src="https://s0.wp.com/mshots/v1/https%3A%2F%2Flinktr.ee%2Fsanchar?w=1200" alt="Live Preview — More Websites & Apps by Sanchar Koirala (linktr.ee/sanchar)" width="820" />
-</a>
-
-<br />
-
-**[Launch Full Directory → `tr.ee/sanchar`](https://tr.ee/sanchar)** &nbsp;·&nbsp; Direct Link: [`linktr.ee/sanchar`](https://linktr.ee/sanchar)
+<table>
+  <tr>
+    <td align="center" width="760">
+      <br />
+      <a href="https://tr.ee/sanchar">
+        <img src="favicon.png" width="54" height="54" alt="Sanchar Koirala Portfolio" />
+      </a>
+      <h3>Sanchar Koirala — Official Link Hub</h3>
+      <p>Browse all live web apps, browser games, developer tools, and interactive experiments in one place.</p>
+      <p>
+        <a href="https://tr.ee/sanchar">
+          <img src="https://img.shields.io/badge/OPEN_FULL_DIRECTORY_%E2%86%92_tr.ee%2Fsanchar-43e660?style=for-the-badge&logo=linktree&logoColor=081018" alt="Open tr.ee/sanchar" />
+        </a>
+      </p>
+      <sub>Short URL: <a href="https://tr.ee/sanchar"><code>tr.ee/sanchar</code></a> &nbsp;·&nbsp; Direct Linktree: <a href="https://linktr.ee/sanchar"><code>linktr.ee/sanchar</code></a></sub>
+      <br /><br />
+    </td>
+  </tr>
+</table>
 
 </div>
+
+### Featured Live Web Apps
+
+| Project | Live Link | Category |
+| :--- | :--- | :--- |
+| **SanLogic** | [`sanlogic.netlify.app`](https://sanlogic.netlify.app) | Web Application |
+| **OOPS TV** | [`oopstv.netlify.app`](https://oopstv.netlify.app) | Media & Streaming |
+| **GiggleBytes** | [`gigglebytes.netlify.app`](https://gigglebytes.netlify.app/) | Instant Humor & Entertainment |
+| **Watch My Movies** | [`watch-my-movies.netlify.app`](https://watch-my-movies.netlify.app/) | Movie Discovery & Tracking |
+| **Everest Token (EVT)** | [`evtoken.netlify.app`](https://evtoken.netlify.app/) | Web3 / Token Project |
+| **NP Miner** | [`np-miner.pages.dev`](https://np-miner.pages.dev) | Interactive Browser Simulator |
+
+> Looking for the rest? Every new release is indexed live at **[`tr.ee/sanchar`](https://tr.ee/sanchar)**.
 
 ---
 
