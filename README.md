@@ -214,7 +214,7 @@ bat-to-exe/
 └── README.md                   # Project documentation
 
 ---
-
+```
 ## Running Unsigned Executables on Windows
 
 Because these binaries are lightweight, self-compiled standalone `.exe` tools without a paid commercial EV certificate, **Windows Defender SmartScreen** may show a *"Windows protected your PC"* prompt on first launch.
