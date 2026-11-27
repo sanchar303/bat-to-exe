@@ -65,7 +65,7 @@ Explore the full directory of web apps, browser games, developer utilities, and 
 
 <div align="center">
 
-<a href="https://tr.ee/sanchar" target="_blank" rel="noopener noreferrer">
+<a href="https://linktr.ee/sanchar" target="_blank" rel="noopener noreferrer">
   <img src="https://s0.wp.com/mshots/v1/https%3A%2F%2Flinktr.ee%2Fsanchar?w=1200" alt="Live Preview — More Websites & Apps by Sanchar Koirala (linktr.ee/sanchar)" width="820" />
 </a>
 
