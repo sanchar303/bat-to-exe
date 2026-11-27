@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181c24" />
+      <stop offset="50%" stop-color="#1e2433" />
+      <stop offset="100%" stop-color="#13161d" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <radialGradient id="glow-orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        fill: #f1f5f9;
+        letter-spacing: -0.5px;
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #38bdf8;
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes orbitA {
+        0% { transform: rotate(0deg) translateX(58px) rotate(0deg); }
+        100% { transform: rotate(360deg) translateX(58px) rotate(-360deg); }
+      }
+      @keyframes orbitB {
+        0% { transform: rotate(180deg) translateX(82px) rotate(-180deg); }
+        100% { transform: rotate(540deg) translateX(82px) rotate(-540deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.45; }
+        50% { opacity: 0.95; }
+      }
+      @keyframes shimmer {
+        0% { transform: translateX(-300px); }
+        100% { transform: translateX(900px); }
+      }
+      .float-group { animation: floatSlow 5s ease-in-out infinite; }
+      .p-orbit-1 { transform-origin: 760px 110px; animation: orbitA 9s linear infinite; }
+      .p-orbit-2 { transform-origin: 760px 110px; animation: orbitB 14s linear infinite; }
+      .pulse { animation: pulseGlow 3.2s ease-in-out infinite; }
+      .shimmer-bar { animation: shimmer 4.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  
+  <rect x="2" y="2" width="896" height="216" rx="26" fill="url(#bg-grad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <rect class="shimmer-bar" x="0" y="2" width="220" height="2" fill="url(#accent-grad)" opacity="0.7" />
+
+  
+  <circle cx="760" cy="110" r="105" fill="url(#glow-orb)" class="pulse" />
+  <circle cx="760" cy="110" r="58" fill="none" stroke="rgba(56,189,248,0.18)" stroke-width="1" stroke-dasharray="4 4" />
+  <circle cx="760" cy="110" r="82" fill="none" stroke="rgba(129,140,248,0.15)" stroke-width="1" />
+  <circle cx="760" cy="110" r="6" fill="#38bdf8" class="pulse" />
+  <circle class="p-orbit-1" cx="760" cy="110" r="3.5" fill="#7dd3fc" />
+  <circle class="p-orbit-2" cx="760" cy="110" r="2.5" fill="#a5b4fc" />
+
+  
+  <g class="float-group">
+    <rect x="48" y="34" width="256" height="28" rx="14" fill="#13161d" stroke="rgba(56,189,248,0.35)" stroke-width="1" />
+    <circle cx="64" cy="48" r="4" fill="#38bdf8" class="pulse" />
+    <text x="76" y="52" class="pill-text">NATIVE WINDOWS .NET COMPILER</text>
+
+    <text x="48" y="106" class="title">BAT to EXE Converter</text>
+    <text x="48" y="136" class="subtitle">Compile .bat scripts into standalone .exe binaries + portable Windows utilities.</text>
+
+    <rect x="48" y="158" width="142" height="30" rx="15" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.3)" stroke-width="1" />
+    <text x="68" y="177" class="pill-text">Drag &amp; Drop .BAT</text>
+
+    <rect x="200" y="158" width="166" height="30" rx="15" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+    <text x="218" y="177" class="pill-text" fill="#cbd5e1">Optional favicon.png</text>
+  </g>
+</svg>
