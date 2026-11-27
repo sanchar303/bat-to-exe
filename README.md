@@ -212,3 +212,23 @@ bat-to-exe/
 ├── CNAME                       # Custom domain configuration for GitHub Pages
 ├── google450a35d41fc058df.html # Google Search Console site verification
 └── README.md                   # Project documentation
+
+---
+
+## Running Unsigned Executables on Windows
+
+Because these binaries are lightweight, self-compiled standalone `.exe` tools without a paid commercial EV certificate, **Windows Defender SmartScreen** may show a *"Windows protected your PC"* prompt on first launch.
+
+To run:
+1. Click **More info**.
+2. Click **Run anyway**.
+
+---
+
+<div align="center">
+
+<img src="favicon.png" width="20" height="20" alt="" /> **Built for everyone by [Sanchar Koirala ( संचार )](https://tr.ee/sanchar)**
+
+[GitHub (`@sanchar303`)](https://github.com/sanchar303) &nbsp;·&nbsp; [All Websites & Apps (`tr.ee/sanchar`)](https://tr.ee/sanchar)
+
+</div>
