@@ -116,6 +116,8 @@ Click anywhere on the preview card below to launch **`tr.ee/sanchar`**, or explo
 
 | Project | Live Link | Platform |
 | :--- | :--- | :--- |
+| **SKLang** | [Visit GitHub](https://github.com/sanchar303/sk-lang) | Programming Language |
+| **SKLang** | [Visit Website](https://sk-lang.pages.dev) | Programming Language |
 | **Aetheria** | [Open Aetheria](https://share.google/EAjJCYtv9BU0PWZma) | Web App |
 | **UNC AI** | [`unc-ai.netlify.app`](https://unc-ai.netlify.app) | Netlify |
 | **NVIDIA AI** | [Open NVIDIA AI](https://share.google/JLBJGCMYR8MaL2m1F) | Web App |
