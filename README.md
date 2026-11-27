@@ -9,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0ea5e9?style=flat-square&logo=windows&logoColor=white)](https://github.com/sanchar303/bat-to-exe)
 [![Dependencies](https://img.shields.io/badge/Dependencies-None%20(Native%20.NET)-22c55e?style=flat-square)](https://github.com/sanchar303/bat-to-exe)
 [![GitHub Pages](https://img.shields.io/badge/Web%20Portal-Live-38bdf8?style=flat-square&logo=githubpages&logoColor=white)](https://github.com/sanchar303/bat-to-exe/deployments)
-[![More Apps](https://img.shields.io/badge/All%20Websites%20%26%20Apps-tr.ee%2Fsanchar-43e660?style=flat-square&logo=linktree&logoColor=081018)](https://tr.ee/sanchar)
+[![More Apps](https://img.shields.io/static/v1?label=All%20Websites%20%26%20Apps&message=tr.ee/sanchar&color=43e660&style=flat-square&logo=linktree&logoColor=081018)](https://tr.ee/sanchar)
 
 [Download Converter](./bat_to_exe_converter.exe) · [Quick Start](#quick-start) · [Standalone Tools](#more-standalone-tools) · [More Websites & Apps](#more-websites-apps--projects) · [Repo Layout](#repository-structure)
 
@@ -61,27 +61,23 @@ Every utility below is pre-compiled, portable, and ready to run on Windows 10 / 
 
 ## More Websites, Apps & Projects
 
+Click anywhere on the preview below to launch **`tr.ee/sanchar`** and browse all live web apps, browser games, and developer utilities:
+
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="760">
-      <br />
-      <a href="https://tr.ee/sanchar">
-        <img src="favicon.png" width="54" height="54" alt="Sanchar Koirala Portfolio" />
-      </a>
-      <h3>Sanchar Koirala — Official Link Hub</h3>
-      <p>Browse all live web apps, browser games, developer tools, and interactive experiments in one place.</p>
-      <p>
-        <a href="https://tr.ee/sanchar">
-          <img src="https://img.shields.io/badge/OPEN_FULL_DIRECTORY_%E2%86%92_tr.ee%2Fsanchar-43e660?style=for-the-badge&logo=linktree&logoColor=081018" alt="Open tr.ee/sanchar" />
-        </a>
-      </p>
-      <sub>Short URL: <a href="https://tr.ee/sanchar"><code>tr.ee/sanchar</code></a> &nbsp;·&nbsp; Direct Linktree: <a href="https://linktr.ee/sanchar"><code>linktr.ee/sanchar</code></a></sub>
-      <br /><br />
-    </td>
-  </tr>
-</table>
+<a href="https://tr.ee/sanchar">
+  <img src="linktree-preview.png" width="780" alt="Sanchar Koirala — Official Link Hub (tr.ee/sanchar)" />
+</a>
+
+<br /><br />
+
+<a href="https://tr.ee/sanchar">
+  <img src="https://img.shields.io/static/v1?label=VISIT%20LIVE%20SITE&message=tr.ee/sanchar&color=43e660&style=for-the-badge&logo=linktree&logoColor=081018" alt="Visit tr.ee/sanchar" />
+</a>
+
+<br />
+
+<sub>Short URL: <a href="https://tr.ee/sanchar"><code>tr.ee/sanchar</code></a> &nbsp;·&nbsp; Direct Linktree: <a href="https://linktr.ee/sanchar"><code>linktr.ee/sanchar</code></a></sub>
 
 </div>
 
@@ -96,8 +92,6 @@ Every utility below is pre-compiled, portable, and ready to run on Windows 10 / 
 | **Everest Token (EVT)** | [`evtoken.netlify.app`](https://evtoken.netlify.app/) | Web3 / Token Project |
 | **NP Miner** | [`np-miner.pages.dev`](https://np-miner.pages.dev) | Interactive Browser Simulator |
 
-> Looking for the rest? Every new release is indexed live at **[`tr.ee/sanchar`](https://tr.ee/sanchar)**.
-
 ---
 
 ## Repository Structure
@@ -111,6 +105,7 @@ bat-to-exe/
 ├── piano.exe                   # 88-key low-latency polyphonic studio piano
 ├── index.html                  # Single-file web download portal (GitHub Pages)
 ├── favicon.png                 # Site icon & default .exe icon asset
+├── linktree-preview.png        # Visual preview card for tr.ee/sanchar
 ├── CNAME                       # Custom domain configuration for GitHub Pages
 ├── google450a35d41fc058df.html # Google Search Console site verification
 └── README.md                   # Project documentation
